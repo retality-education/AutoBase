@@ -59,5 +59,125 @@ namespace AutoBase.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] CargoWorkerCar {
+            get {
+                object obj = ResourceManager.GetObject("CargoWorkerCar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] CargoWorkerCarBroken {
+            get {
+                object obj = ResourceManager.GetObject("CargoWorkerCarBroken", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Chief {
+            get {
+                object obj = ResourceManager.GetObject("Chief", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Dispatcher {
+            get {
+                object obj = ResourceManager.GetObject("Dispatcher", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] GarageBuilding {
+            get {
+                object obj = ResourceManager.GetObject("GarageBuilding", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] LightGuestCar {
+            get {
+                object obj = ResourceManager.GetObject("LightGuestCar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] LightGuestCarBroken {
+            get {
+                object obj = ResourceManager.GetObject("LightGuestCarBroken", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] LightWorkerCar {
+            get {
+                object obj = ResourceManager.GetObject("LightWorkerCar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] LightWorkerCarBroken {
+            get {
+                object obj = ResourceManager.GetObject("LightWorkerCarBroken", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] RepairBuilding {
+            get {
+                object obj = ResourceManager.GetObject("RepairBuilding", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Worker {
+            get {
+                object obj = ResourceManager.GetObject("Worker", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] WorkerHouseBuilding {
+            get {
+                object obj = ResourceManager.GetObject("WorkerHouseBuilding", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AutoBase.View
 {
-    public partial class AutoBaseForm : Form
+    public partial class AutoBaseForm : Form, IAutoBaseView
     {
         internal AutoBaseController autoBaseController;
         public AutoBaseForm()
