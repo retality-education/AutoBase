@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoBase.Model.Events
+namespace AutoBase.Core.Enums
 {
-    internal class ModelEventArgs
+    internal enum CarType
     {
+        LightWorker,
+        HeavyWorker,
+        LightGuest
     }
 }

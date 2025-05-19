@@ -23,7 +23,12 @@ namespace AutoBase.Controller
 
         private void Configure()
         {
-            _autoBaseForm.Controller = this;
+            _autoBaseForm.autoBaseController = this;
+            _autoBase.Subscribe(_autoBaseForm);
+        }
+        public void Start()
+        {
+            _autoBase.Start();
         }
     }
 }

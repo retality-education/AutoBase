@@ -61,102 +61,102 @@ namespace AutoBase.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] CargoWorkerCar {
+        internal static System.Drawing.Bitmap CargoWorkerCar {
             get {
                 object obj = ResourceManager.GetObject("CargoWorkerCar", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] CargoWorkerCarBroken {
+        internal static System.Drawing.Bitmap CargoWorkerCarBroken {
             get {
                 object obj = ResourceManager.GetObject("CargoWorkerCarBroken", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Chief {
+        internal static System.Drawing.Bitmap Chief {
             get {
                 object obj = ResourceManager.GetObject("Chief", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Dispatcher {
+        internal static System.Drawing.Bitmap Dispatcher {
             get {
                 object obj = ResourceManager.GetObject("Dispatcher", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] GarageBuilding {
+        internal static System.Drawing.Bitmap GarageBuilding {
             get {
                 object obj = ResourceManager.GetObject("GarageBuilding", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] LightGuestCar {
+        internal static System.Drawing.Bitmap LightGuestCar {
             get {
                 object obj = ResourceManager.GetObject("LightGuestCar", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] LightGuestCarBroken {
+        internal static System.Drawing.Bitmap LightGuestCarBroken {
             get {
                 object obj = ResourceManager.GetObject("LightGuestCarBroken", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] LightWorkerCar {
+        internal static System.Drawing.Bitmap LightWorkerCar {
             get {
                 object obj = ResourceManager.GetObject("LightWorkerCar", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] LightWorkerCarBroken {
+        internal static System.Drawing.Bitmap LightWorkerCarBroken {
             get {
                 object obj = ResourceManager.GetObject("LightWorkerCarBroken", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] RepairBuilding {
+        internal static System.Drawing.Bitmap RepairBuilding {
             get {
                 object obj = ResourceManager.GetObject("RepairBuilding", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -171,12 +171,22 @@ namespace AutoBase.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] WorkerHouseBuilding {
+        internal static System.Drawing.Bitmap Worker1 {
+            get {
+                object obj = ResourceManager.GetObject("Worker1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WorkerHouseBuilding {
             get {
                 object obj = ResourceManager.GetObject("WorkerHouseBuilding", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

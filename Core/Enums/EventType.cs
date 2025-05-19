@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoBase.Model.Enums
+namespace AutoBase.Core.Enums
 {
     internal enum EventType
     {
-        //offline
+        //online
         ReceiveOnlineOrder,
         WorkerMoveToGarage,
         WorkerCarMoveToOrder,
@@ -16,7 +16,7 @@ namespace AutoBase.Model.Enums
         WorkerCarCameFromOrderToRepair,
         WorkerCarMoveFromRepairToGarage,
 
-        //online
+        //offline
         GuestMoveToChief,
         ReceiveOfflineOrder,
         GuestMoveToRepair,

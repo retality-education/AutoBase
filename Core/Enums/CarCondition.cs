@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoBase.Model.Buildings
+namespace AutoBase.Core.Enums
 {
-    internal class RepairShop
+    internal enum CarCondition
     {
+        Working,
+        Broken
     }
 }
