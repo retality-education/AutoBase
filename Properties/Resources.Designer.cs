@@ -93,6 +93,36 @@ namespace AutoBase.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dialogNeedCargoCar {
+            get {
+                object obj = ResourceManager.GetObject("dialogNeedCargoCar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dialogNeedLightCar {
+            get {
+                object obj = ResourceManager.GetObject("dialogNeedLightCar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dialogNeedWorkerToRepair {
+            get {
+                object obj = ResourceManager.GetObject("dialogNeedWorkerToRepair", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dispatcher {
             get {
                 object obj = ResourceManager.GetObject("Dispatcher", resourceCulture);

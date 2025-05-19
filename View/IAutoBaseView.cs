@@ -12,12 +12,12 @@ namespace AutoBase.View
     internal interface IAutoBaseView : IObserver
     {
         //online
-        void OnReceiveOnlineOrder();
+        void OnReceiveOnlineOrder(CarDto car);
         void OnWorkerMoveToGarage();
-        void OnWorkerCarMoveToOrder(int CarId);
+        void OnWorkerCarMoveToOrder(int CarId, CarDto car);
         void OnWorkerCarCameFromOrderToGarage(int CarId);
-        void OnWorkerCarCameFromOrderToRepair(int CarId);
-        void OnWorkerCarMoveFromRepairToGarage(int CarId);
+        void OnWorkerCarCameFromOrderToRepair(CarDto car);
+        void OnWorkerCarMoveFromRepairToGarage(CarDto car);
 
         //offline
         void OnGuestMoveToChief(int CarId);

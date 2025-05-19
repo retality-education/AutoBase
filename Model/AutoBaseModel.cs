@@ -60,7 +60,7 @@ namespace AutoBase.Model
 
                     _chief.AddGuestToQueue(guest);  // Добавляем к начальнику
                     
-                    await Task.Delay(_random.Next(6000, 12000)); // Ждём 6-12 сек
+                    await Task.Delay(_random.Next(6000, 8000)); // Ждём 6-12 сек
                 }
             });
 
@@ -73,7 +73,7 @@ namespace AutoBase.Model
 
                     _dispatcher.AddCarRequest(carRequest); // Добавляем к диспетчеру
 
-                    await Task.Delay(_random.Next(5000, 8000)); // Ждём 5-8 сек
+                    await Task.Delay(_random.Next(4000, 6000)); // Ждём 5-8 сек
                 }
             });
         }
@@ -97,7 +97,7 @@ namespace AutoBase.Model
         {
             Task.Run(async () => {
                 if (fg)
-                    await Task.Delay(1000);
+                    await Task.Delay(2000);
                 _repairBuilding.CarCameToRepair(car);
             });
         }

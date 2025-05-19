@@ -45,7 +45,7 @@ namespace AutoBase.Model.Peoples
                          );
 
 
-                        Thread.Sleep(1000);
+                        Thread.Sleep(2000);
 
                         _autoBaseModel.Notify(
                             new ModelEventArgs(EventType.GuestMoveToRepair, guest.Car)
